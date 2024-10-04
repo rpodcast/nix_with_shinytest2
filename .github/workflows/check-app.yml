@@ -10,7 +10,7 @@ jobs:
   test-app:
     runs-on: ubuntu-latest
     strategy:
-      fail-fast:
+      fail-fast: false
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
