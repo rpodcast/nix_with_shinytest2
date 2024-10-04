@@ -4,7 +4,8 @@
 #  > r_pkgs = c("shiny",
 #  > "shinytest2",
 #  > "shinyvalidate",
-#  > "rstudioapi"),
+#  > "rstudioapi",
+#  > "usethis"),
 #  > system_pkgs = c("chromium",
 #  > "vscodium"),
 #  > git_pkgs = NULL,
@@ -23,7 +24,8 @@ let
       rstudioapi
       shiny
       shinytest2
-      shinyvalidate;
+      shinyvalidate
+      usethis;
   };
     
   system_packages = builtins.attrValues {
